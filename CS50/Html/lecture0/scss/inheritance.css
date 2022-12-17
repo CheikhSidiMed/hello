@@ -1,0 +1,25 @@
+.error, .warning, .succes {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10;
+  grid-template-columns: 200px auto 200px;
+}
+
+.succes {
+  background-color: green;
+}
+
+.warning {
+  background-color: orange;
+}
+
+.error {
+  background-color: red;
+}/*# sourceMappingURL=inheritance.css.map */

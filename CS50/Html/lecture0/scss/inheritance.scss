@@ -1,0 +1,31 @@
+%massage {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    // flex-wrap: wrap;    
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10;
+    grid-template-columns: 200px auto 200px;
+    
+}
+
+.succes {
+    @extend %massage;
+    background-color: green;
+}
+
+.warning {
+    @extend %massage;
+    background-color: orange;
+}
+
+.error {
+    @extend %massage;
+    background-color: red;
+}
+
